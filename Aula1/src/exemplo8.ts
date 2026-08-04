@@ -3,7 +3,7 @@ const aleatorio = () => Math.floor(Math.random() * 100);
 
 // gera um array de números aleatórios
 const aleatorios = (quantidade: number) => {
-  const res = [];
+  const res:number[] = [];
 
   for (let i = 0; i < quantidade; i++) {
 

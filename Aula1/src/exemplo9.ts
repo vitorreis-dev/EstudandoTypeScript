@@ -1,10 +1,10 @@
 const substituir = function (entrada:string, letra:string, novo:string) {
-  let res = [];
+  let res:string[] = [];
   for (let i = 0; i < entrada.length; i++) {
     if (entrada[i] == letra) {
       res.push(novo);
     } else {
-      res.push(entrada[i]);
+      res.push("" + entrada[i]);
     }
   }
   return res;

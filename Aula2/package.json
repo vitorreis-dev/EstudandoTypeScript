@@ -1,0 +1,19 @@
+{
+  "name": "type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "um": "npx tsc && node ./dist/exemplo1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typ": "^0.6.3"
+  },
+  "dependencies": {
+    "tsx": "^4.23.5",
+    "typescript": "^7.0.2"
+  }
+}
